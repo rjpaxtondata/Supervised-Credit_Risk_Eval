@@ -40,8 +40,8 @@ The results are bulleted below, followed by an image of the classification table
 
 ![image](https://user-images.githubusercontent.com/82011523/139775729-c22a19f6-0e6c-4c41-88d3-8fc48037725c.png)
 
-Model 4. 
-•	A subsequent Random Forest model was developed, which consisted of tuning the model based on the n_estimators, max_features, max_depth, min_samples_split, min_samples_leaf, and bootstrap. The model was tuned using RandomizedSearchCV. Unfortunately, tuning the model did not result in an improved model fit. The model accounted for 97% and 66% of the variance in outcomes for the training and testing data, respectively. The classification table is depicted below. Overall, this model performed marginally better than the prior model. However, overfitting was reduced slightly in this model.
+ 
+•	Model 4.  A subsequent Random Forest model was developed, which consisted of tuning the model based on the n_estimators, max_features, max_depth, min_samples_split, min_samples_leaf, and bootstrap. The model was tuned using RandomizedSearchCV. Unfortunately, tuning the model did not result in an improved model fit. The model accounted for 97% and 66% of the variance in outcomes for the training and testing data, respectively. The classification table is depicted below. Overall, this model performed marginally better than the prior model. However, overfitting was reduced slightly in this model.
  
 ![image](https://user-images.githubusercontent.com/82011523/139775810-7b7a1634-2803-4fbe-b436-4ded6b3a8b00.png)
 
