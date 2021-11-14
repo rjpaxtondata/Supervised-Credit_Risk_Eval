@@ -22,7 +22,7 @@ Initially, the data were preprocessed by one-hot encoding the categorical variab
 
 All analyses were conducted in Python using Jupyter Lab. The following packages were used: Numpy, Pandas, and sklearn. Scaled and unscaled Logistic Regression and Random Forest models were computed. We tuned the unscaled model using recommended parameters to determine whether an improved model could be found. Rather than the standard 3-fold cross-validation, we utilized only 2-fold in an effort to reduce time. Classification reports were produced for each analysis.  
 
-## Results
+## Results - 
 
 
 The results are bulleted below, followed by an image of the classification table. We reported the R-square values in the test.
@@ -54,9 +54,9 @@ The results are bulleted below, followed by an image of the classification table
 
 ![image](https://user-images.githubusercontent.com/82011523/139775898-68cc6cec-b339-40cc-bcc4-aeb1b725394a.png)
 
-## Summary
+## Summary - 
 
-The Random Forest models appeared to have the best fit to the data when examining the R-square values (i.e., score). Of note, the scaled Logistic Regression model resulted in the highest estimate of precision (0.75) when compared to the other models. However, the percentage of variance accounted for was lowest for this model. Overall, the models we computed were marginal at best. Other variables may be better predictors of high-risk status that were not included in this model. It could also be that 2020 represented an unusual year due to historical events (i.e., COVID-19) that interfered with our ability to predict high-risk status. Additional machine learning models and more time-series data may be warranted to predict loan status better.
+The Random Forest models appeared to have the best fit to the data when examining the R-square values (i.e., score). Of note, the scaled Logistic Regression model resulted in the highest estimate of precision (0.75) when compared to the other models. However, the percentage of variance accounted for was lowest for this model. Overall, the models we computed were marginal at best. Other variables, not included in the model may be better predictors of high-risk status. It could also be that 2020 represented an unusual year due to historical events (i.e., COVID-19) that interfered with our ability to predict high-risk status. Additional machine learning models and more time-series data may be warranted to predict loan status better.
 
 
  
