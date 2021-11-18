@@ -1,4 +1,4 @@
-# Supervised Learning – Credit Risk Assignment
+# Predicting High-Risk Loans using Supervised Learning
 
 
 
